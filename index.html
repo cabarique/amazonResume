@@ -1,0 +1,323 @@
+<html>
+	<head>
+    	<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Luis Cabarique's Awesome Resume</title>
+        <style>
+			body{
+				
+			}
+			
+			hr{
+				margin: 3px 0px;
+			}
+			
+			h3{
+				color: #CC6600 !important;	
+			}
+			.amazon-envelope {
+				position: relative;
+				width: 600px;
+				height: 700px;
+				margin: 0 auto;
+				display: block;
+				background-image: url(whitenoise-10x10.png);
+				border-radius: 2px;
+				-moz-border-radius: 2px;
+				-webkit-border-radius: 2px;
+				padding-top: 1px;
+				cursor: pointer;
+				margin-top: 10px;
+			}
+			
+			.envelope-noise{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				background-color: #B79363;
+				opacity: 0.86;
+			}
+			
+			.envelope-content{
+				border: 1px solid #b79363;
+				height: 547px;
+				width: 500px;
+				margin: 0 auto;
+				margin-top: 93px;
+				position: relative;
+				box-shadow: inset 0 0 7px #b79363;
+				border-top-color: #8E7650;
+			}
+			
+			.envelope-corner{
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 0 5px 82px 5px;
+				border-color: transparent transparent #b79363 transparent;	
+				position: absolute;
+			}
+			
+			.envelope-corner.light{
+				border-width: 0 1px 104px 5px;
+				border-color: transparent transparent #8E7650 transparent;	
+			}
+			
+			.envelope-corner.top.left{
+				left: 22px;
+				top: -4px;
+				-moz-transform:rotate(-30deg);	
+				-webkit-transform:rotate(-30deg);	
+			}
+			
+			.envelope-corner.top.right{
+				right: 24px;
+				top: -5px;
+				-moz-transform:rotate(28deg);
+				-webkit-transform:rotate(28deg);	
+			}
+			
+			.envelope-corner.bottom.left{
+				bottom: -10px;
+				left: 22px;
+				-moz-transform:rotate(220deg);
+				-webkit-transform:rotate(220deg);
+			}
+			.envelope-corner.bottom.right{
+				bottom: -10px;
+				right: 22px;
+				-moz-transform:rotate(140deg);
+				-webkit-transform:rotate(140deg);
+			}
+			
+			.envelope-trapezoid{
+				border-top: 94px solid #b79363;
+				border-left: 50px solid transparent;
+				border-right: 50px solid transparent;
+				height: 0;
+				width: 598px;
+				left: 1px;
+				position: absolute;
+			}
+			
+			.envelope-zipper{
+				width: 99%;
+				left: 2px;
+				height: 40px;
+				background-color: #b79363;
+				position: absolute;
+				border-radius: 5px;
+				top: 29px;
+				border: 1px solid #8E7650;
+			}
+			
+			.amazon-logo{
+				position: relative;
+				top: 150px;
+				left: 100px;
+			}
+			
+			.envelop-from-to{
+				position: absolute;
+				bottom: 12px;
+				right: -20px;
+				background-color: #eee;
+				width: 300px;
+				border-radius: 4px;
+				-moz-box-shadow: inset 0 0 1px #888;
+				-webkit-box-shadow: inset 0 0 1px #888;
+				box-shadow: inner 0 0 1px #888;
+				border: 1px solid #ccc;
+				font-size: 12px;
+				font-family:Arial, Helvetica, sans-serif;
+				font-weight: bold;
+				padding: 20px 10px;
+			}
+			
+			.envelop-from-to table{
+				font-family:Arial, Helvetica, sans-serif;
+				font-weight: bold;
+				font-size: 16px;
+			}
+			
+			.ship-to{
+				font-size:20px;	
+			}
+			
+			#qr{
+				float:right;
+				margin-right: 10px;	
+				margin-top: 10px;
+			}
+			
+			.clear{
+				clear:both;	
+			}
+			
+			.resume-header > img{
+				float: left;	
+			}
+			
+			.resume-header{
+				font-size: 16px;
+			}
+			
+			.resume-header div.profile-me-info{
+				float: left;	
+				margin-left: 10px;
+			}
+			
+			.resume-content{
+				padding-left: 15px;	
+			}
+			
+			.resume-content strong{
+				font-size:20px;
+			}
+		</style>
+        <!-- Bootstrap -->
+    	<link href="css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="amazon-envelope" data-toggle="modal" data-target="#resume">
+        	<div class="envelope-noise"></div>
+            <div class="envelope-corner light top left"></div>
+            <div class="envelope-corner light top right"></div>  
+            <div class="envelope-trapezoid"></div>     
+            <div class="envelope-zipper"></div>        
+			<div class="envelope-content">
+            	<img class="amazon-logo" src="Amazon-logo.png" width="300px"> 
+                <div class="envelop-from-to">
+                	<span>Luis Cabarique Fullfilment Services</span><br/>
+                    <span>cabarique.luis@gmail.com</span><br/>
+                    <span>Calle 24a # 59 59, Apartamento 902 Torre 2</span><br/>
+                    <span>Bogotá, Colombia</span><br/><br/><br/>
+                    <table>
+                    	<tr>
+                        	<td>
+                            	<span class="ship-to">SHIP</span><br/>
+                    			<span class="ship-to">TO:</span><br/>
+                    		</td>
+                            <td style="padding-left: 10px;">
+                            	<span>Elizabeth Elliott</span><br/>
+                                <span>Amazon.com</span><br/>
+                                <span>lizel@amazon.com</span><br/>
+                            </td>
+                        </tr>
+                    </table>
+                    <img id="qr" src="qrplanet-small.png">
+                </div>
+            </div>
+            <div class="envelope-corner bottom left"></div>
+            <div class="envelope-corner bottom right"></div>
+		</div>
+        <!-- Modal -->
+        <div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">RESUME</h4>
+              </div>
+              <div class="modal-body">
+                <div class="resume-header">
+            <img class="profile-picture" src="profile.jpg" width="180px"/>
+            <div class="profile-me-info">
+            	<h1>Luis Alonso Cabarique</h1>
+                <span>Calle 24a # 59 - 59 Torre 2 Apartamento 902, Bogotá, Colombia</span><br/>
+                <span>+51 (314) 361 - 7735</span><br>
+                <span>cabarique.luis@gmail.com</span><br/>
+            </div>
+            <div class="clear"></div>
+            <hr>
+            
+            <div class="resume-content objetive">
+            	<h3>OBJETIVE</h3>
+                <span>Software Engineer</span>
+            	<hr>
+            </div>
+            
+            <div class="resume-content education">
+            	<h3>EDUCATION</h3>
+                <ul>
+                	<li><strong>Bachelor in Engineering, Systems engineer</strong> at <a href="http://sistemas.uniandes.edu.co/main/" target="_blank">Universidad de los Andes</a>, Bogotá, Colombia</li>
+                    <li>Certifications
+                    	<ul>
+                        	<li>SAP Computer Science and information technology</li>
+                            <li>Microsoft Starting with Windows phone</li>
+                        </ul>
+                    </li>
+                </ul>	
+            	<hr>
+            </div>
+            
+            <div class="resume-content skills">
+            	<h3>SKILLS</h3>
+                <ul>
+                	<li><strong>Full stack developer</strong> > 2 years startup experience</li>
+                    <li><strong>Team leader</strong> > 1 year startup experience, working with a team of 5 following SCRUM</li>
+                    <li><strong>Web development</strong> > 3+ years HTML5, CSS3, Javascript, PHP, SQL, Codeigniter, Git, AngularJS, Python, Django, ...</li>
+                    <li><strong>Mobile development</strong> > 1+ year Cordova Phonegap, Objetive-c</li>
+                    <li><strong>Bilingual</strong> > native Spanish and fluid written and spoken English</li>
+                    <li><strong>Swimmer</strong> > 10+ years, 28.86 Sec on 50 mts free style</li>
+                </ul>
+            	<hr>
+            </div>
+            
+            <div class="resume-content work-experience">
+            	<h3>WORK EXPERIENCE</h3>
+                <ul>
+                	<li><strong>Front end Software Engineer</strong> Since march 2014 – now (4 months)
+                    <br/>at <a href="http://www.bizagi.com/" target="_blank">Bizagi</a>
+                    <p>Bizagi is the leading Business Process Management (BPMS) solution for faster and flexible 
+process automation.</p>
+					<ul>
+                    	<li>Develop new features for the mobile applications</li>
+                        <li>Give support on any mobile device (Ios, Android, windows phone, blackberryOS, windows8)</li>
+                        <li>Research and implement "new" technologies</li>
+                    </ul>
+                    </li>
+                    <li><strong>Full stack Software Engineer</strong> Since june 2012 - march 2014 (1 year 10 months)
+                    <br/>at <a href="http://www.laspartes.com/" target="_blank">laspartes.com</a>
+                    <p>Laspartes.com is an startup that offers an online solution for car maintenance</p>
+                    <ul>
+                        <li>Moved servers, dbs and resources to AWS</li>
+                    	<li>Developed all of the current applications such as laspartes.com, crm.laspartes.com, flotas.laspartes.com, and both mobile applications on the ios and google store</li>
+                        <li>Team leader and project planning following SCRUM</li>
+                    	<li>All of my code helped to rise near <strong>US500k</strong> which is a lot for a Colombian startup</li>
+                    </ul>
+                    </li>
+                    <li><strong>Freelance</strong> Since January 2010 - july 2011 (1 year 7 months)
+                    <br/>at 2RDStudio
+                    <p>Freelance developer of dynamic web applications in PHP, CSS, HTML, MYSQL and JQUERY</p>
+                    </li>
+                </ul>
+            	<hr>
+            </div>
+            <span>If I miss any relevant information checkout my <a href="http://www.linkedin.com/pub/luis-cabarique/60/945/710/en">Linkedin profile</a></span><br/>
+            <span>Interested on my developer skills, don't miss my <a href="https://github.com/cabarique?tab=repositories">Github profile</a></span>
+        </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Let me go :(</button>
+                <a type="button" href="mailto:cabarique.luis@gmail.com?Subject=Liked you resume" class="btn btn-primary">Hire me!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        <script src="js/jquery.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+    	<script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+			$( document ).ready(function() {
+				
+			});
+		</script>
+	</body>
+</html>
